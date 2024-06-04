@@ -17,7 +17,10 @@ const rightMenus = [
 const NavBar = (props: NavBarProps) => {
   return (
     <div className=" bg-transparent text-xl text-primary font-bold">
-      <div className="w-full h-40 container flex items-center">
+      <div data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0" className="w-full h-40 container flex items-center">
         <div className="flex gap-2 basis-1/3 items-center justify-center">
           {leftMenus.map((leftItems, leftIdx) => {
             return (

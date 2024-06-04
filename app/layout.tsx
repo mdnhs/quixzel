@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { commonFont, titleFont } from "./fonts";
 import "./globals.css";
 import NavBar from "@/components/NavBar/NavBar";
+import { AOSInit } from "@/components/animation/aos";
 
 export const metadata: Metadata = {
   title: "Quixzel",
@@ -18,6 +19,7 @@ export default function RootLayout({
       lang="en"
       className={`${commonFont.variable} ${titleFont.variable} font-common`}
     >
+      <AOSInit />
       <body>
         <NavBar />
         {children}

@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${commonFont.variable} ${titleFont.variable} font-common`}
+      className={`${commonFont.variable} ${titleFont.variable} font-common bg-background`}
     >
       <AOSInit />
       <body>

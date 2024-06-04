@@ -10,7 +10,13 @@ const config: Config = {
     container: {
       center: true,
     },
-    colors: { primary: "#403d39", secondary: "#EB5E28", tertiary: "#9A8D77", white:"#FFF" },
+    colors: {
+      primary: "#403d39",
+      secondary: "#EB5E28",
+      tertiary: "#9A8D77",
+      white: "#FFF",
+      background: "#fffcf2",
+    },
     extend: {
       fontFamily: {
         title: ["var(--font-title)"],

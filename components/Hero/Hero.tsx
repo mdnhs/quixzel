@@ -5,7 +5,7 @@ type HeroProps = {};
 
 const Hero = (props: HeroProps) => {
   return (
-    <div className="h-screen w-full container space-y-14 pt-20">
+    <div className="h-screen w-full container space-y-14 pt-0">
       <p
         data-aos="zoom-in"
         data-aos-delay="300"
@@ -17,7 +17,7 @@ const Hero = (props: HeroProps) => {
       <p
         data-aos="fade-zoom-in"
         data-aos-easing="ease-in-back"
-        data-aos-delay="300"
+        data-aos-delay="100"
         data-aos-offset="0"
         className="font-bold text-tertiary text-center text-2xl"
       >

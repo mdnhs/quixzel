@@ -5,7 +5,7 @@ import NavBar from "@/components/NavBar/NavBar";
 
 export const metadata: Metadata = {
   title: "Quixzel",
-  description: "The developer partners of creative souls.",
+  description: "Developer partners of creative souls.",
 };
 
 export default function RootLayout({

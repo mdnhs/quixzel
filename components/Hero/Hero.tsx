@@ -34,7 +34,7 @@ const Hero = (props: HeroProps) => {
         <button
           data-aos="fade-up"
           data-aos-delay="300"
-          className="px-10 py-2 text-2xl font-bold rounded-full bg-secondary text-white relative group hover:-translate-y-3 transition-all duration-300 ease-in-out"
+          className="px-10 py-2 text-2xl font-bold rounded-full bg-secondary text-white relative group hover:-translate-y-3 transition-all duration-300 ease-in-out border-[3px] border-secondary"
         >
           {" "}
           <span className="w-10 h-10 rounded-lg border-[3px] rotate-45 group-hover:animate-bounce border-secondary bg-white absolute -left-3 -top-3"></span>{" "}

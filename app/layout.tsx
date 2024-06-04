@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import { commonFont, titleFont } from "./fonts";
 import "./globals.css";
+import NavBar from "@/components/NavBar/NavBar";
 
 export const metadata: Metadata = {
   title: "Quixzel",
-  description: "The design partners of creative souls.",
+  description: "The developer partners of creative souls.",
 };
 
 export default function RootLayout({
@@ -17,7 +18,10 @@ export default function RootLayout({
       lang="en"
       className={`${commonFont.variable} ${titleFont.variable} font-common`}
     >
-      <body>{children}</body>
+      <body>
+        <NavBar />
+        {children}
+      </body>
     </html>
   );
 }

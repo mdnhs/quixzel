@@ -7,6 +7,10 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    container: {
+      center: true,
+    },
+    colors: { primary: "#403d39", secondary: "#EB5E28", tertiary: "9A8D77" },
     extend: {
       fontFamily: {
         title: ["var(--font-title)"],

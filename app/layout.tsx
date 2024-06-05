@@ -1,13 +1,17 @@
+import dynamic from "next/dynamic";
+import { AOSInit } from "@/components/animation/aos";
 import type { Metadata } from "next";
 import { commonFont, titleFont } from "./fonts";
 import "./globals.css";
-import NavBar from "@/components/NavBar/NavBar";
-import { AOSInit } from "@/components/animation/aos";
 
 export const metadata: Metadata = {
   title: "Quixzel",
   description: "Developer partners of creative souls.",
 };
+
+const NavBar = dynamic(() => import("../components/NavBar/Scroll"), {
+  ssr: true,
+});
 
 export default function RootLayout({
   children,
